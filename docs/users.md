@@ -66,6 +66,7 @@ You cannot disable SCRAM authentication.
              db: <role-1-database>
            - name: <role-2>
              db: <role-2-database>
+         scramCredentialsSecretName: mongodb-<username>-scram
    ...
    ```
 1. Save the file.
